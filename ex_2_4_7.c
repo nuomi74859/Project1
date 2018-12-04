@@ -13,7 +13,7 @@ int main()
 	int a, b, m;
 	scanf_s("%d,%d",&a,&b);
 	m = gcd(a, b);
-	printf("m=%d\n",m);
+	printf("m=%d\n£¬this is test",m);
 	system("pause");
 	return 0;
 }
