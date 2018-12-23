@@ -4,8 +4,9 @@ int main()
 {
 	int a, b;
 	a = 5;
-	b = 'a';
+	b = 3;
+	b += ++a + b;
 	printf("a=%d,b=%d\n", a,b);
-	system("pause");
+	//system("pause");
 	return 0;
 }
