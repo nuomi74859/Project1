@@ -2,17 +2,14 @@
 #include<math.h>
 int main()
 {
-	int a, b, c;
-	a = 6;
-	b = 3;
-	c = a > b > 1;
-	switch (a)
+	float a,t=0;
+	for (int i = 0; i < 100 && t <= 100; i++)
 	{
-		case 5:putchar('a'); ;
-		case 6:putchar('b'); ;
-		case 7:putchar('c'); ;
-		default:putchar('n');
+		printf("%d次捐款数目：\n", i+1);
+		scanf_s("%f", &a);
+		t += a;
 	}
+	printf("总捐款数：%f\n", t);
 	system("pause");
 	return 0;
 }
