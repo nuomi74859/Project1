@@ -1,11 +1,11 @@
 #include<stdio.h>
 #include<math.h>
-//#include<string.h>
+#include<string.h>
 int max;
 int main()
 {
-	char a[200]="aaaaaaa";
-	char b[13]="bbb";
+	char a[200]="ab\0cd";
+	char b[10]="b";
 	//putchar(a);
 	//scanf_s("%d", a);
 	//gets(a);
@@ -28,14 +28,15 @@ int main()
 	}
 	*/
 	//strcat(a, b);
-	strcpy(a,b);
-	for (int i = 0; i<10; i++)
-	{
-		printf("%d\n", a[i]);
-	}
+	//strcat(a,b);
+	strlwr(a,b);
+	//int x = strcmp(a,b);
+	printf("x=%s\n",a);
+	printf("len=%zd\n",strlen(b));
+
 	//puts(a);
 	//printf("%d\n", b);
 
-	system("pause");
+	//system("pause");
 	return 0;
 }
