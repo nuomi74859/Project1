@@ -35,7 +35,6 @@ int main()
 	}
 	//puts(a);
 	//printf("%d\n", b);
-
 	system("pause");
 	return 0;
 }
