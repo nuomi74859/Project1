@@ -36,11 +36,7 @@ int main()
 
 	//puts(a);
 	//printf("%d\n", b);
-<<<<<<< HEAD
 
 	//system("pause");
-=======
-	system("pause");
->>>>>>> e4bd2c28c38a79b751a4711879a762ccd0679ec5
 	return 0;
 }
