@@ -4,7 +4,7 @@
 int max;
 int main()
 {
-	char a[200]="ab\0cd";
+	char a[200]="aB\0cd";
 	char b[10]="b";
 	//putchar(a);
 	//scanf_s("%d", a);
@@ -29,7 +29,8 @@ int main()
 	*/
 	//strcat(a, b);
 	//strcat(a,b);
-	strlwr(a,b);
+	//_strlwr(a);
+	//strlwr(b);
 	//int x = strcmp(a,b);
 	printf("x=%s\n",a);
 	printf("len=%zd\n",strlen(b));
