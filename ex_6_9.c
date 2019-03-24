@@ -130,13 +130,13 @@ int half_search(int *arr, int x, int start, int end)
 		return -1;
 	}
 
-	//如果比目标值大，则m为结尾
+	//如果比目标值大，则m为开端
 	if (arr[m] > x)
 	{
 		return half_search(arr, x, m, end);
 	}
 
-	//如果比目标值小，则m为开端
+	//如果比目标值小，则m为结尾
 	if (arr[m] < x)
 	{
 		return half_search(arr, x, start, m);
